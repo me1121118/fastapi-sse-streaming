@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapi-sse-streaming"
+version = "0.1.0"
+description = "Clean, reliable Server-Sent Events (SSE) streaming for FastAPI. Perfect for ChatGPT-like typewriter responses."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "me1121118" }]
+keywords = ["fastapi", "sse", "streaming", "server-sent-events", "llm", "ai"]
+dependencies = [
+    "fastapi>=0.100.0",
+]
